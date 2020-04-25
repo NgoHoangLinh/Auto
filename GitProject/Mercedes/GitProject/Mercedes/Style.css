@@ -1,0 +1,103 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+a:visited{color:#fff;}
+
+td{text-align: center;}
+
+td:nth-child(2){width:50px;}
+
+	/* sdfjsdjfl */
+	
+@media screen and (max-width: 600px) {
+	nav ul li{ display: list-item;
+	padding: 5px;	
+	margin-left: 15px;}
+	header{
+	padding:20px;
+}
+}
+
+@media screen and (min-width: 600px) {
+	nav ul li{ display: inline;
+padding: 15px;	}
+	header{
+	padding:40px;
+}
+}
+
+header {background-color:#222;}
+
+nav ul li{ 	font-size: 20px;}
+		
+nav ul li:hover{ 
+		text-decoration: underline;
+		font-size: 22px;
+		padding: 11px;
+		}
+
+body {background-color: #222;
+	color: #fff;
+	background-image: url("Images/back.png");
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.content{
+	background-color: rgba(0,0,0,0.6);
+	
+}
+
+.mers {
+	height:300px;
+}
+
+form{width:100%;
+	display:flex;}
+	
+form div {
+	flex:1;
+	margin: 20px 100px 20px 100px;
+	text-align: center;
+}
+
+form input {
+	width: 100%;
+	padding: 5px;
+	border-radius: 5px;
+	border: 2px solid #ccc;
+}
+
+form select {
+	width: 100%;
+	padding: 5px;
+	border-radius: 5px;
+	border: 2px solid #ccc;
+}
+
+form input[type="color"] {
+	height: 50px;
+}
+
+form input[type="radio"] {
+	display: inline;
+}
+
+form input[type="submit"]:hover{
+	background-color: #c6c;
+}
+
+big {
+	text-align: inherit;
+	line-height: 30px;
+	
+}

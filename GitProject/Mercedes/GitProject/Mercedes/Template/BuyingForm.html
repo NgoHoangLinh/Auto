@@ -1,0 +1,32 @@
+<form action="Action.php">
+    <div>
+        Model:<br/>
+        <input type="text" name="Model"/><br/><br/>
+        Colour:<br/>
+        <input type="color"  name="Colour"/><br/><br/>
+        Release time :<br/>
+        <table width="100%"><tr><td><input type="range" name="Release_time" id="_time" min="2000" max="2021"/></td><td><span id="_range"></span> year</td> </tr></table><br/><br/>
+        Type of car :<br/><br/>
+        <input type="radio" name="Active" value ="Active"/>Active<br/><br/><input type="radio" name="Elegance" value ="Elegance"/>Elegance<br/><br/>
+        <input type="reset" value="Clear form"/>
+    </div>
+    <div>
+        Type of tire : <br/>
+        <select name="TypeOfTire">
+            <option value="winter"> winter </option>
+            <option value="summer"> summer </option>
+            <option value="winter + summer"> winter + summer </option>
+        </select><br/><br/>
+        Number :<br/>
+        in the format +XXXXXXXXXXXX(12 digits):
+        <input type="tel" name="Tel" maxlength="13" id="tel"/><br/>
+        <i id="comment" style="color:#ff2213;"></i><br/><br/>
+        VIP-Card :
+        <input type="password" name="VIP_card"/><br/><br/>
+        Additional information:<br/>
+        <textarea name="comment" cols="75" rows="4"/> This is some information with numbers 375292210909
+        Who likes working +79999331-11-11  and some people +111110002299 with +841231231122 aklsfn 532220000000 and some unknown 
+        +002334567890 123 </textarea>
+        <br/><br/><br/><input type="submit" value="BUY"/><br/>
+    </div>
+</form>
